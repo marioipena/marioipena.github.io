@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Mario Pena DATA608_HW5</title>
+</head>
+<body style="background-color:powderblue;">
+<h1 style="text-align:center;">DATA608 Homework 5</h1>
+
+  <h2>Word Reverse</h2>
+  <p>Please enter a word to be reversed: <input id="input-word" type="text"></p>
+  <p><button id="compute">Reverse</button></p>
+  <p id="result"></p>
+  
+  <hr>
+
+  <h2>Multiples of Number</h2>
+  <p>Please enter a number: <input id="input-number" type="text"></p>
+  <p><button id="make-table">Show First 20 Multiples</button></p>
+  <p id="result-table"></p>
+
+  <hr>
+
+  <h2>Presidents' Data</h2>
+  <p id="presidents"></p>
+
+  <hr>
+
+  <h2>Select President</h2>
+  <p>Please enter the name of a president: <input id="input-president" type="text"></p>
+  <p><button id="get-president">Get Height and Weight</button></p>
+  <p id="president-data"></p>
+
+  <script src="https://d3js.org/d3.v5.min.js"></script>
+  <script>
+  {
+  const input = document.querySelector('#input-word');
+  const button = document.querySelector('#compute');
+  const result = document.querySelector('#result');
+
+  button.onclick = () => {
+    let reversed = '';
+    for (let i = input.value.length - 1; i >= 0; i--) {
+      reversed += input.value[i];
+    }
+    result.innerText = reversed;
+  };
+}
+
+{
+  const input = document.querySelector('#input-number');
+  const button = document.querySelector('#make-table');
+  const result = document.querySelector('#result-table');
+
+  button.onclick = () => {
+    const n = +input.value;
+    let x = n;
+    let table = '<table>';
+    for (let i = 0; i < 5; i++) {
+      table += '<tr>';
+      for (let j = 0; j < 4; j++) {
+        table += '<td>' + x + '</td>';
+        x += n;
+      }
+      table += '</tr>';
+    }
+    table += '</table>';
+    result.innerHTML = table;
+  };
+}
+
+{
+  const presidents = document.querySelector('#presidents');
+  const csvUrl = "https://raw.githubusercontent.com/marioipena/marioipena.github.io/main/presidents.csv";
+  d3.csv(csvUrl).then(function(data) {
+    let table = '<table>';
+    table += '<tr>';
+    for (let j = 0; j < data.columns.length; j++) {
+      table += '<td>' + data.columns[j] + '</td>';
+    }
+    table += '</tr>';
+
+    for (let i = 0; i < data.length; i++) {
+      table += '<tr>';
+      for (let j = 0; j < data.columns.length; j++) {
+        table += '<td>' + data[i][data.columns[j]] + '</td>';
+      }
+      table += '</tr>';
+    }
+    table += '</table>';
+    presidents.innerHTML = table;
+  });
+}
+
+
+{
+  const input = document.querySelector('#input-president');
+  const button = document.querySelector('#get-president');
+  const result = document.querySelector('#president-data');
+  const csvUrl = "https://raw.githubusercontent.com/marioipena/marioipena.github.io/main/presidents.csv";
+  let presidentsData;
+
+  d3.csv(csvUrl).then(function(data) {
+    presidentsData = data;
+  });
+
+  button.onclick = () => {
+    const name = input.value;
+    let data = null;
+    for (let i = 0; i < presidentsData.length; i++) {
+      if (presidentsData[i].Name === name) {
+        data = presidentsData[i];
+        break;
+      }
+    }
+    if (data) {
+      result.innerHTML = `Height: ${data['Height']}, Weight: ${data['Weight']}`;
+    }
+    else {
+      result.innerHTML = 'Invalid name, please try again';
+    }
+  };
+}
+  </script>
+  
+</body>
+</html>
