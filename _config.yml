@@ -1,11 +1,11 @@
-title: John Doe # your name (or website title) here
+title: Mario Pena # your name (or website title) here
 logo: "/images/logo.png?raw=true" # your photo (or logo) here
 description: > # your text below (remove <br> elements if you don't need line breaks)
-  First description 
+  Driven Data Analyst with over 13 years progressive responsible experience deriving actionable recommendations by implementing suitable approaches to unique and complex data problems.  
   <br><br>
-  Second description 
+  Master of Science in Data Science degree from the City University of New York with a 4.0 GPA. 
   <br><br>
-  <a href="https://www.linkedin.com/in/example/">View My LinkedIn Profile</a> 
+  <a href="https://www.linkedin.com/in/marioipena/">View My LinkedIn Profile</a> 
   
 remote_theme: pages-themes/minimal@v0.2.0
 plugins:
