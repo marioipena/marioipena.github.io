@@ -6,11 +6,11 @@
 
 <img src="images/Candlestick M_A.png?raw=true" />
 
-Pairs trading refers to a strategy of trading that "involves betting on the price spread between two similar securities". Pairs trading has the distinct advantage of always being hedged against market movements and is a strategy based on mathematical analyses. I applied a hypothesis test to verify whether there is statistical evidence to support the claim that two assets cointegrate (converge) at any point in the period of time we have chosen.
+Pairs trading is a strategy of trading that "involves betting on the price spread between two similar securities". Pairs trading has the distinct advantage of always being hedged against market movements and is a strategy based on mathematical analyses. I have mined, analyzed and visualized data from Yahoo Finance, applying a hypothesis test to verify whether there is statistical evidence to support the claim that two assets cointegrate (converge) at any point in the period of time we have chosen.
 
 [![](https://img.shields.io/badge/Python-white?logo=Python)](#) [![](https://img.shields.io/badge/Jupyter-white?logo=Jupyter)](#) [![](https://img.shields.io/badge/PyTorch-white?logo=pytorch)](#) [![](https://img.shields.io/badge/Twitter-white?logo=Twitter)](#) [![](https://img.shields.io/badge/HuggingFace_Transformers-white?logo=huggingface)](#)
 
-[View Code on GitHub](https://github.com/marioipena/DATA618/blob/main/Week%208/Pairs%20Trading.ipynb)
+[View Report on GitHub](https://github.com/marioipena/DATA618/blob/main/Week%208/Pairs%20Trading.ipynb)
 
 ---
 
