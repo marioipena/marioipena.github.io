@@ -2,13 +2,15 @@
 
 ---
 
-### Deep NLP for hate speech detection
+### Hypothesis Testing for Pairs Trading in Quantitative Finance
 
-Hate speech detection is the automated task of determining whether a piece of text contains hateful content. In this project, I built a classifier using PyTorch to fine-tune a BERT model.
+<img src="images/Candlestick M_A.png?raw=true" />
+
+Pairs trading refers to a strategy of trading that "involves betting on the price spread between two similar securities". Pairs trading has the distinct advantage of always being hedged against market movements and is a strategy based on mathematical analyses. I applied a hypothesis test to verify whether there is statistical evidence to support the claim that two assets cointegrate (converge) at any point in the period of time we have chosen.
 
 [![](https://img.shields.io/badge/Python-white?logo=Python)](#) [![](https://img.shields.io/badge/Jupyter-white?logo=Jupyter)](#) [![](https://img.shields.io/badge/PyTorch-white?logo=pytorch)](#) [![](https://img.shields.io/badge/Twitter-white?logo=Twitter)](#) [![](https://img.shields.io/badge/HuggingFace_Transformers-white?logo=huggingface)](#)
 
-[View code on Colab](https://colab.research.google.com/drive/1d_q0vUpgwmbN7imUcdsbuDwJ61OuBjvO?usp=sharing)
+[View Code on GitHub](https://github.com/marioipena/DATA618/blob/main/Week%208/Pairs%20Trading.ipynb)
 
 ---
 
