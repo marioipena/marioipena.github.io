@@ -2,7 +2,7 @@
 
 ---
 
-### Harmonizing Success: Data-Driven Strategies for Maximizing Music Popularity on Spotify
+### Harmonizing Success: Data-Driven Insights for Strategic Decision-Making on Spotify
 
 <img src="images/spotify.png?raw=true" />
 
