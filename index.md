@@ -32,7 +32,7 @@ This project focuses on pairs trading, a strategy that bets on the price spread 
 
 In this project, we embark on a comprehensive analysis using three diverse datasets: renewable energy data, farm output data, and steel product import data. Our objective is to clean, transform, and visualize this data to extract meaningful insights and provide actionable recommendations. Starting with thorough research to identify and source relevant data, we compile and host these datasets on GitHub for seamless access. Utilizing R Markdown, we systematically load, tidy, and transform the data to ensure accuracy and consistency. Through advanced data visualization techniques, we uncover patterns and correlations within the datasets.
 
-[![](https://img.shields.io/badge/Rstudio-white?logo=RStudio)](#) [![](https://img.shields.io/badge/R-white?logo=R)](#) [![](https://img.shields.io/badge/tidyr-brightgreen?logo=R)](#) [![](https://img.shields.io/badge/dplyr-yellow?logo=R)](#) [![](https://img.shields.io/badge/ggplot2-red?logo=R)](#)
+[![](https://img.shields.io/badge/RStudio-white?logo=RStudio)](#) [![](https://img.shields.io/badge/R-white?logo=R)](#) [![](https://img.shields.io/badge/tidyr-brightgreen?logo=R)](#) [![](https://img.shields.io/badge/dplyr-yellow?logo=R)](#) [![](https://img.shields.io/badge/ggplot2-red?logo=R)](#)
 
 [View Report and Code on RPubs](https://rpubs.com/marioipena/536194)
 
