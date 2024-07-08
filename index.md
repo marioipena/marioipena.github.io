@@ -14,6 +14,18 @@ By employing advanced data analytics techniques, including data extraction, prep
 
 ---
 
+### Driving Safety with Data: Leveraging AWS for Vehicle Injury Analysis
+
+<img src="images/vehicle_injury.png?raw=true" />
+
+This project aims to identify the safest vehicles from a head and leg injury perspective using comprehensive crash test data. By utilizing AWS for data storage and processing, the analysis integrates vast datasets from the National Highway Traffic Safety Administration to provide detailed insights into vehicle safety. The project employs data cleaning, summarization, and advanced statistical analyses to evaluate injury criteria, supported by visualizations created using R's ggplot2 and plotly packages.
+
+[![](https://img.shields.io/badge/RStudio-white?logo=RStudio)](#) [![](https://img.shields.io/badge/R-white?logo=R)](#) [![](https://img.shields.io/badge/tidyr-brightgreen?logo=R)](#) [![](https://img.shields.io/badge/dplyr-yellow?logo=R)](#) [![](https://img.shields.io/badge/ggplot2-red?logo=R)](#)
+
+[View Report and Code on GitHub](https://github.com/marioipena/DATA608/blob/main/DATA608_FinalProject.pdf)
+
+---
+
 ### Quantitative Finance Strategies: Exploring Pair Trading through Hypothesis Testing
 
 <img src="images/Candlestick M_A.png?raw=true" />
